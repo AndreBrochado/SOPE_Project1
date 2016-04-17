@@ -1,0 +1,5 @@
+#! /bin/bash
+#usage: compile source_code
+
+rm -f $1 $1.o
+gcc $1.c -Wall -o ./$1
